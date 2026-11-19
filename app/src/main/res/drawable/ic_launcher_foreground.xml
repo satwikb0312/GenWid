@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:translateX="22" android:translateY="22">
+        <!-- Outer rounded square -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M4,4 L60,4 A4,4 0 0 1 64,8 L64,56 A4,4 0 0 1 60,60 L8,60 A4,4 0 0 1 4,56 L4,8 A4,4 0 0 1 8,4 Z" />
+        <!-- Grid lines -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="2"
+            android:pathData="M4,24 L64,24 M4,40 L64,40 M24,4 L24,60 M40,4 L40,60" />
+        <!-- Inner cells (simple squares) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M10,10 h10 v10 h-10 z M28,10 h10 v10 h-10 z M46,10 h10 v10 h-10 z M10,28 h10 v10 h-10 z M28,28 h10 v10 h-10 z M46,28 h10 v10 h-10 z M10,46 h10 v10 h-10 z M28,46 h10 v10 h-10 z M46,46 h10 v10 h-10 z" />
+    </group>
+</vector>
